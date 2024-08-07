@@ -26,7 +26,7 @@ The code is implemented in Python==3.8, timm==0.9.10, torch==2.0.1.
 
 ├── pc_certification.py                  #Evaluate masking-based recovery defender (for extended CostCert)
 
-├── drs.pc_readcsv.py                  #Read the results save by  topkcert.py and compute with the masking one to get the extended CostCert (for extended CostCert)
+├── drs+pc_readcsv.py                  #Read the results save by  topkcert.py and compute with the masking one to get the extended CostCert (for extended CostCert)
 
 ## Demo
 

@@ -9,7 +9,7 @@ The code is implemented in Python==3.8, timm==0.9.10, torch==2.0.1.
 ## Datasets
 
 - [ImageNet](https://image-net.org/download.php) (ILSVRC2012)
-- [CIFAR-10/CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
+- [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/)
 
 ## Files

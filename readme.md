@@ -48,7 +48,7 @@ The code is implemented in Python==3.8, timm==0.9.10, torch==2.0.1.
 
   
 
-3. Finally, get the results of TopKCert.
+3. Finally, get the results.
 
   ```python
   `python topkcert.py --dataset gtsrb --ablation_type column --model vit_base_patch16_224 --ablation_size 19

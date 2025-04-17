@@ -16,7 +16,7 @@ The code is implemented in Python==3.8, timm==0.9.10, torch==2.0.1.
 
 ├── train_drs.py              #Training for voting-based recovery base model 
 
-├── certification_drs.py                  #generate and evaluate samples and mutants 
+├── certification_drs.py                  #generate and evaluate mutants 
 
 ├── topkcert.py    #Compute the certification of top k for peers and CostCert
 
@@ -35,7 +35,7 @@ The code is implemented in Python==3.8, timm==0.9.10, torch==2.0.1.
 
   
 
-2. Then, get the inference results of samples and mutants in the dataset from the DL models.
+2. Then, get the inference results of mutants in the dataset from the DL models.
 
   ```python
   `python certification_drs.py --dataset gtsrb --ablation_type column --model vit_base_patch16_224 --ablation_size 19
